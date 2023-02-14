@@ -44,7 +44,14 @@ namespace files {
             std::cout << line << std::endl;
             
             if(lineNo > 0){
-                
+                std::stringstream ss(line);
+                std::string token;
+
+                std::getline(ss, token, ',');
+                float pokemonNumber = std::stof(token);
+
+                std::getline(ss, token);
+                float pokemonStats = std::stof(token);
             }
 
             ++lineNo;
