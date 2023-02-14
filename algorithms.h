@@ -161,6 +161,7 @@ private:
                 ++j;
             }
             ++k;
+            ++comparisons;
         }
 
         while(i < subDiv1){
