@@ -5,6 +5,8 @@
 #include <vector>
 #include <array>
 
+#include "pokemon.h"
+
 namespace files {
     extern const std::string pokemonRandomLarge;
     extern const std::string pokemonRandomMedium;
@@ -18,7 +20,7 @@ namespace files {
 
     std::array<std::string, 9> getFilesArray();
 
-    std::vector<float> readCSV(std::string directory);
+    std::vector<Pokemon> readCSV(std::string directory);
 }
 
 #endif

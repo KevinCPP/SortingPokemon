@@ -1,5 +1,6 @@
-#include "files.h"
 #include <bits/stdc++.h>
+
+#include "files.h"
 
 namespace files {
     //list of files that are stored in the "./data" directory, to be sorted
@@ -30,12 +31,13 @@ namespace files {
     }
 
     //function for parsing the .csv files.
-    std::vector<float> readCSV(std::string directory){
+    std::vector<Pokemon> readCSV(std::string directory){
         std::ifstream infile(directory.c_str());
+        std::vector<Pokemon> vec;
 
         if(!infile) {
             std::cerr << "Error: Could not open file " << directory << std::endl;
-            return std::vector<float>();
+            return std::vector<Pokemon>();
         }
 
         size_t lineNo = 0;
@@ -52,12 +54,15 @@ namespace files {
 
                 std::getline(ss, token);
                 float pokemonStats = std::stof(token);
+
+                Pokemon temp(pokemonNumber, pokemonStats);
+                vec.push_back(temp);
             }
 
             ++lineNo;
         }
 
-        return std::vector<float>();
+        return vec;
     }
 }
 

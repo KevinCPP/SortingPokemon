@@ -28,6 +28,11 @@ bool Pokemon::operator>=(const Pokemon& other) const {
     return !(*this < other);
 }
 
+std::ostream& operator<<(std::ostream& os, const Pokemon& pokemon){
+    os << "Pokemon #: " << pokemon.number << ", Stats: " << pokemon.stats;
+    return os;
+}
+
 //getters
 double Pokemon::getNumber() { return number; }
 double Pokemon::getStats() { return stats; }

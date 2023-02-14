@@ -50,13 +50,14 @@ void testMergeSort(std::vector<T> data){
 }
 
 int main(){
-    std::vector<int> test = {1, 4, 2, 5, 9, 3, 7};
-
 //    testQuickSort(test);
 //    testInsertionSort(test);
 //    testMergeSort(test);
 
-    files::readCSV(files::pokemonRandomSmall);
+    std::vector<Pokemon> vec(files::readCSV(files::pokemonRandomSmall));
+
+    for(auto i : vec)
+        std::cout << i << std::endl;
 
     return 0;
 }

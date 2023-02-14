@@ -1,6 +1,8 @@
 #ifndef pokemon_h
 #define pokemon_h
 
+#include <iostream>
+
 class Pokemon{
 private:
     double number;
@@ -15,6 +17,9 @@ public:
     bool operator<=(const Pokemon& other) const;
     bool operator>(const Pokemon& other) const;
     bool operator>=(const Pokemon& other) const;
+
+    //overload for << operator so this can be printed with cout
+    friend std::ostream& operator<<(std::ostream& os, const Pokemon& pokemon);
 
     //getters
     double getNumber();
