@@ -15,49 +15,58 @@ void printVector(std::vector<T>& vector){
 }
 
 template <std::totally_ordered T>
-void testQuickSort(std::vector<T> data){
+size_t doQuickSort(std::vector<T> data){
     std::cout << "Before QuickSort: ";
     printVector(data);
 
     QuickSort<Pokemon> quickSorter;
-    quickSorter.sort(data);
+    size_t comparisons = quickSorter.sort(data);
 
     std::cout << "After QuickSort: ";
     printVector(data);
+
+    return comparisons;
 }
 
 template <std::totally_ordered T>
-void testInsertionSort(std::vector<T> data){
+size_t doInsertionSort(std::vector<T> data){
     std::cout << "Before InsertionSort: ";
     printVector(data);
 
     InsertionSort<Pokemon> insertionSorter;
-    insertionSorter.sort(data);
+    size_t comparisons = insertionSorter.sort(data);
 
     std::cout << "After InsertionSort: ";
     printVector(data);
+
+    return comparisons;
 }
 
 template <std::totally_ordered T>
-void testMergeSort(std::vector<T> data){
+size_t doMergeSort(std::vector<T> data){
     std::cout << "Before MergeSort: ";
     printVector(data);
 
     MergeSort<Pokemon> mergeSorter;
-    mergeSorter.sort(data);
+    size_t comparisons = mergeSorter.sort(data);
 
     std::cout << "After MergeSort: ";
     printVector(data);
+
+    return comparisons;
 }
 
 int main(){
-//    testQuickSort(test);
-//    testInsertionSort(test);
-//    testMergeSort(test);
+    std::vector<Pokemon> vec(files::readCSV(files::pokemonReverseSortedSmall));
 
-    std::vector<Pokemon> vec(files::readCSV(files::pokemonRandomSmall));
+    size_t quicksortComparisons = doQuickSort(vec);
+    size_t insertionComparisons = doInsertionSort(vec);
+    size_t mergesortComparisons = doMergeSort(vec);
 
-    testMergeSort(vec);
+    std::cout << "Size of Dataset: " << vec.size() << std::endl;
+    std::cout << "quicksort Comparisons: " << quicksortComparisons << std::endl;
+    std::cout << "insertion Comparisons: " << insertionComparisons << std::endl;
+    std::cout << "mergesort Comparisons: " << mergesortComparisons << std::endl;
 
     return 0;
 }
