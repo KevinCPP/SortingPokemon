@@ -1,13 +1,14 @@
 #include <bits/stdc++.h>
 
 #include "algorithms.h"
+#include "pokemon.h"
 #include "files.h"
 
 //utility function for printing out a vector
 template <typename T>
 void printVector(std::vector<T>& vector){
     for(auto i : vector){
-        std::cout << i << " ";
+        std::cout << i << std::endl;
     }
 
     std::cout << '\n';
@@ -18,7 +19,7 @@ void testQuickSort(std::vector<T> data){
     std::cout << "Before QuickSort: ";
     printVector(data);
 
-    QuickSort<int> quickSorter;
+    QuickSort<Pokemon> quickSorter;
     quickSorter.sort(data);
 
     std::cout << "After QuickSort: ";
@@ -30,7 +31,7 @@ void testInsertionSort(std::vector<T> data){
     std::cout << "Before InsertionSort: ";
     printVector(data);
 
-    InsertionSort<int> insertionSorter;
+    InsertionSort<Pokemon> insertionSorter;
     insertionSorter.sort(data);
 
     std::cout << "After InsertionSort: ";
@@ -42,7 +43,7 @@ void testMergeSort(std::vector<T> data){
     std::cout << "Before MergeSort: ";
     printVector(data);
 
-    MergeSort<int> mergeSorter;
+    MergeSort<Pokemon> mergeSorter;
     mergeSorter.sort(data);
 
     std::cout << "After MergeSort: ";
@@ -56,8 +57,7 @@ int main(){
 
     std::vector<Pokemon> vec(files::readCSV(files::pokemonRandomSmall));
 
-    for(auto i : vec)
-        std::cout << i << std::endl;
+    testMergeSort(vec);
 
     return 0;
 }

@@ -1,0 +1,501 @@
+Pokemon Number, Total Stats
+46,285
+133,325
+38,505
+10,195
+3,525
+3.1,625
+47,405
+63,310
+88,325
+150,680
+89,500
+18,479
+49,450
+137,395
+139,495
+123,500
+32,273
+117,440
+60,300
+84,310
+24,438
+97,483
+142.1,615
+43,320
+12,395
+98,325
+67,405
+83,352
+128,490
+101,480
+39,270
+146,580
+86,325
+9.1,630
+2,405
+105,425
+102,325
+1,318
+50,265
+80.1,590
+58,350
+107,455
+41,245
+151,600
+72,335
+92,310
+37,299
+136,525
+23,288
+14,205
+25,320
+96,328
+65.1,590
+106,455
+73,515
+17,349
+121,520
+28,450
+80,490
+78,500
+134,525
+100,330
+64,400
+59,555
+8,405
+138,355
+18.1,579
+122,460
+125,490
+42,455
+90,305
+15.1,495
+74,300
+127.1,600
+56,305
+148,420
+79,315
+70,390
+150.1,780
+5,405
+94.1,600
+110,490
+62,510
+142,515
+131,535
+68,505
+113,450
+31,505
+114,435
+126,495
+127,500
+27,300
+85,460
+13,195
+20,413
+111,345
+129,200
+109,340
+9,530
+103,520
+118,320
+91,525
+81,325
+82,465
+35,323
+6.1,634
+135,525
+76,495
+147,300
+115,490
+51,405
+45,490
+94,500
+22,442
+34,505
+57,455
+7,314
+93,405
+69,300
+44,395
+120,340
+65,500
+21,262
+99,475
+87,475
+71,490
+55,500
+130.1,640
+29,275
+75,390
+130,540
+6,534
+143,540
+140,355
+119,450
+145,580
+6.2,634
+95,385
+53,440
+132,288
+40,435
+112,485
+33,365
+77,410
+15,395
+150.2,780
+144,580
+149,600
+104,320
+19,253
+66,305
+108,385
+115.1,590
+61,385
+48,305
+11,205
+26,485
+52,290
+124,455
+4,309
+16,251
+36,483
+116,295
+54,320
+141,495
+30,365
+Before MergeSort: Pokemon #: 46, Stats: 285
+Pokemon #: 133, Stats: 325
+Pokemon #: 38, Stats: 505
+Pokemon #: 10, Stats: 195
+Pokemon #: 3, Stats: 525
+Pokemon #: 3.1, Stats: 625
+Pokemon #: 47, Stats: 405
+Pokemon #: 63, Stats: 310
+Pokemon #: 88, Stats: 325
+Pokemon #: 150, Stats: 680
+Pokemon #: 89, Stats: 500
+Pokemon #: 18, Stats: 479
+Pokemon #: 49, Stats: 450
+Pokemon #: 137, Stats: 395
+Pokemon #: 139, Stats: 495
+Pokemon #: 123, Stats: 500
+Pokemon #: 32, Stats: 273
+Pokemon #: 117, Stats: 440
+Pokemon #: 60, Stats: 300
+Pokemon #: 84, Stats: 310
+Pokemon #: 24, Stats: 438
+Pokemon #: 97, Stats: 483
+Pokemon #: 142.1, Stats: 615
+Pokemon #: 43, Stats: 320
+Pokemon #: 12, Stats: 395
+Pokemon #: 98, Stats: 325
+Pokemon #: 67, Stats: 405
+Pokemon #: 83, Stats: 352
+Pokemon #: 128, Stats: 490
+Pokemon #: 101, Stats: 480
+Pokemon #: 39, Stats: 270
+Pokemon #: 146, Stats: 580
+Pokemon #: 86, Stats: 325
+Pokemon #: 9.1, Stats: 630
+Pokemon #: 2, Stats: 405
+Pokemon #: 105, Stats: 425
+Pokemon #: 102, Stats: 325
+Pokemon #: 1, Stats: 318
+Pokemon #: 50, Stats: 265
+Pokemon #: 80.1, Stats: 590
+Pokemon #: 58, Stats: 350
+Pokemon #: 107, Stats: 455
+Pokemon #: 41, Stats: 245
+Pokemon #: 151, Stats: 600
+Pokemon #: 72, Stats: 335
+Pokemon #: 92, Stats: 310
+Pokemon #: 37, Stats: 299
+Pokemon #: 136, Stats: 525
+Pokemon #: 23, Stats: 288
+Pokemon #: 14, Stats: 205
+Pokemon #: 25, Stats: 320
+Pokemon #: 96, Stats: 328
+Pokemon #: 65.1, Stats: 590
+Pokemon #: 106, Stats: 455
+Pokemon #: 73, Stats: 515
+Pokemon #: 17, Stats: 349
+Pokemon #: 121, Stats: 520
+Pokemon #: 28, Stats: 450
+Pokemon #: 80, Stats: 490
+Pokemon #: 78, Stats: 500
+Pokemon #: 134, Stats: 525
+Pokemon #: 100, Stats: 330
+Pokemon #: 64, Stats: 400
+Pokemon #: 59, Stats: 555
+Pokemon #: 8, Stats: 405
+Pokemon #: 138, Stats: 355
+Pokemon #: 18.1, Stats: 579
+Pokemon #: 122, Stats: 460
+Pokemon #: 125, Stats: 490
+Pokemon #: 42, Stats: 455
+Pokemon #: 90, Stats: 305
+Pokemon #: 15.1, Stats: 495
+Pokemon #: 74, Stats: 300
+Pokemon #: 127.1, Stats: 600
+Pokemon #: 56, Stats: 305
+Pokemon #: 148, Stats: 420
+Pokemon #: 79, Stats: 315
+Pokemon #: 70, Stats: 390
+Pokemon #: 150.1, Stats: 780
+Pokemon #: 5, Stats: 405
+Pokemon #: 94.1, Stats: 600
+Pokemon #: 110, Stats: 490
+Pokemon #: 62, Stats: 510
+Pokemon #: 142, Stats: 515
+Pokemon #: 131, Stats: 535
+Pokemon #: 68, Stats: 505
+Pokemon #: 113, Stats: 450
+Pokemon #: 31, Stats: 505
+Pokemon #: 114, Stats: 435
+Pokemon #: 126, Stats: 495
+Pokemon #: 127, Stats: 500
+Pokemon #: 27, Stats: 300
+Pokemon #: 85, Stats: 460
+Pokemon #: 13, Stats: 195
+Pokemon #: 20, Stats: 413
+Pokemon #: 111, Stats: 345
+Pokemon #: 129, Stats: 200
+Pokemon #: 109, Stats: 340
+Pokemon #: 9, Stats: 530
+Pokemon #: 103, Stats: 520
+Pokemon #: 118, Stats: 320
+Pokemon #: 91, Stats: 525
+Pokemon #: 81, Stats: 325
+Pokemon #: 82, Stats: 465
+Pokemon #: 35, Stats: 323
+Pokemon #: 6.1, Stats: 634
+Pokemon #: 135, Stats: 525
+Pokemon #: 76, Stats: 495
+Pokemon #: 147, Stats: 300
+Pokemon #: 115, Stats: 490
+Pokemon #: 51, Stats: 405
+Pokemon #: 45, Stats: 490
+Pokemon #: 94, Stats: 500
+Pokemon #: 22, Stats: 442
+Pokemon #: 34, Stats: 505
+Pokemon #: 57, Stats: 455
+Pokemon #: 7, Stats: 314
+Pokemon #: 93, Stats: 405
+Pokemon #: 69, Stats: 300
+Pokemon #: 44, Stats: 395
+Pokemon #: 120, Stats: 340
+Pokemon #: 65, Stats: 500
+Pokemon #: 21, Stats: 262
+Pokemon #: 99, Stats: 475
+Pokemon #: 87, Stats: 475
+Pokemon #: 71, Stats: 490
+Pokemon #: 55, Stats: 500
+Pokemon #: 130.1, Stats: 640
+Pokemon #: 29, Stats: 275
+Pokemon #: 75, Stats: 390
+Pokemon #: 130, Stats: 540
+Pokemon #: 6, Stats: 534
+Pokemon #: 143, Stats: 540
+Pokemon #: 140, Stats: 355
+Pokemon #: 119, Stats: 450
+Pokemon #: 145, Stats: 580
+Pokemon #: 6.2, Stats: 634
+Pokemon #: 95, Stats: 385
+Pokemon #: 53, Stats: 440
+Pokemon #: 132, Stats: 288
+Pokemon #: 40, Stats: 435
+Pokemon #: 112, Stats: 485
+Pokemon #: 33, Stats: 365
+Pokemon #: 77, Stats: 410
+Pokemon #: 15, Stats: 395
+Pokemon #: 150.2, Stats: 780
+Pokemon #: 144, Stats: 580
+Pokemon #: 149, Stats: 600
+Pokemon #: 104, Stats: 320
+Pokemon #: 19, Stats: 253
+Pokemon #: 66, Stats: 305
+Pokemon #: 108, Stats: 385
+Pokemon #: 115.1, Stats: 590
+Pokemon #: 61, Stats: 385
+Pokemon #: 48, Stats: 305
+Pokemon #: 11, Stats: 205
+Pokemon #: 26, Stats: 485
+Pokemon #: 52, Stats: 290
+Pokemon #: 124, Stats: 455
+Pokemon #: 4, Stats: 309
+Pokemon #: 16, Stats: 251
+Pokemon #: 36, Stats: 483
+Pokemon #: 116, Stats: 295
+Pokemon #: 54, Stats: 320
+Pokemon #: 141, Stats: 495
+Pokemon #: 30, Stats: 365
+
+After MergeSort: Pokemon #: 10, Stats: 195
+Pokemon #: 13, Stats: 195
+Pokemon #: 129, Stats: 200
+Pokemon #: 11, Stats: 205
+Pokemon #: 14, Stats: 205
+Pokemon #: 41, Stats: 245
+Pokemon #: 16, Stats: 251
+Pokemon #: 19, Stats: 253
+Pokemon #: 21, Stats: 262
+Pokemon #: 50, Stats: 265
+Pokemon #: 39, Stats: 270
+Pokemon #: 32, Stats: 273
+Pokemon #: 29, Stats: 275
+Pokemon #: 46, Stats: 285
+Pokemon #: 23, Stats: 288
+Pokemon #: 132, Stats: 288
+Pokemon #: 52, Stats: 290
+Pokemon #: 116, Stats: 295
+Pokemon #: 37, Stats: 299
+Pokemon #: 27, Stats: 300
+Pokemon #: 60, Stats: 300
+Pokemon #: 69, Stats: 300
+Pokemon #: 74, Stats: 300
+Pokemon #: 147, Stats: 300
+Pokemon #: 48, Stats: 305
+Pokemon #: 56, Stats: 305
+Pokemon #: 66, Stats: 305
+Pokemon #: 90, Stats: 305
+Pokemon #: 4, Stats: 309
+Pokemon #: 63, Stats: 310
+Pokemon #: 84, Stats: 310
+Pokemon #: 92, Stats: 310
+Pokemon #: 7, Stats: 314
+Pokemon #: 79, Stats: 315
+Pokemon #: 1, Stats: 318
+Pokemon #: 25, Stats: 320
+Pokemon #: 43, Stats: 320
+Pokemon #: 54, Stats: 320
+Pokemon #: 104, Stats: 320
+Pokemon #: 118, Stats: 320
+Pokemon #: 35, Stats: 323
+Pokemon #: 81, Stats: 325
+Pokemon #: 86, Stats: 325
+Pokemon #: 88, Stats: 325
+Pokemon #: 98, Stats: 325
+Pokemon #: 102, Stats: 325
+Pokemon #: 133, Stats: 325
+Pokemon #: 96, Stats: 328
+Pokemon #: 100, Stats: 330
+Pokemon #: 72, Stats: 335
+Pokemon #: 109, Stats: 340
+Pokemon #: 120, Stats: 340
+Pokemon #: 111, Stats: 345
+Pokemon #: 17, Stats: 349
+Pokemon #: 58, Stats: 350
+Pokemon #: 83, Stats: 352
+Pokemon #: 138, Stats: 355
+Pokemon #: 140, Stats: 355
+Pokemon #: 30, Stats: 365
+Pokemon #: 33, Stats: 365
+Pokemon #: 61, Stats: 385
+Pokemon #: 95, Stats: 385
+Pokemon #: 108, Stats: 385
+Pokemon #: 70, Stats: 390
+Pokemon #: 75, Stats: 390
+Pokemon #: 12, Stats: 395
+Pokemon #: 15, Stats: 395
+Pokemon #: 44, Stats: 395
+Pokemon #: 137, Stats: 395
+Pokemon #: 64, Stats: 400
+Pokemon #: 2, Stats: 405
+Pokemon #: 5, Stats: 405
+Pokemon #: 8, Stats: 405
+Pokemon #: 47, Stats: 405
+Pokemon #: 51, Stats: 405
+Pokemon #: 67, Stats: 405
+Pokemon #: 93, Stats: 405
+Pokemon #: 77, Stats: 410
+Pokemon #: 20, Stats: 413
+Pokemon #: 148, Stats: 420
+Pokemon #: 105, Stats: 425
+Pokemon #: 40, Stats: 435
+Pokemon #: 114, Stats: 435
+Pokemon #: 24, Stats: 438
+Pokemon #: 53, Stats: 440
+Pokemon #: 117, Stats: 440
+Pokemon #: 22, Stats: 442
+Pokemon #: 28, Stats: 450
+Pokemon #: 49, Stats: 450
+Pokemon #: 113, Stats: 450
+Pokemon #: 119, Stats: 450
+Pokemon #: 42, Stats: 455
+Pokemon #: 57, Stats: 455
+Pokemon #: 106, Stats: 455
+Pokemon #: 107, Stats: 455
+Pokemon #: 124, Stats: 455
+Pokemon #: 85, Stats: 460
+Pokemon #: 122, Stats: 460
+Pokemon #: 82, Stats: 465
+Pokemon #: 87, Stats: 475
+Pokemon #: 99, Stats: 475
+Pokemon #: 18, Stats: 479
+Pokemon #: 101, Stats: 480
+Pokemon #: 36, Stats: 483
+Pokemon #: 97, Stats: 483
+Pokemon #: 26, Stats: 485
+Pokemon #: 112, Stats: 485
+Pokemon #: 45, Stats: 490
+Pokemon #: 71, Stats: 490
+Pokemon #: 80, Stats: 490
+Pokemon #: 110, Stats: 490
+Pokemon #: 115, Stats: 490
+Pokemon #: 125, Stats: 490
+Pokemon #: 128, Stats: 490
+Pokemon #: 15.1, Stats: 495
+Pokemon #: 76, Stats: 495
+Pokemon #: 126, Stats: 495
+Pokemon #: 139, Stats: 495
+Pokemon #: 141, Stats: 495
+Pokemon #: 55, Stats: 500
+Pokemon #: 65, Stats: 500
+Pokemon #: 78, Stats: 500
+Pokemon #: 89, Stats: 500
+Pokemon #: 94, Stats: 500
+Pokemon #: 123, Stats: 500
+Pokemon #: 127, Stats: 500
+Pokemon #: 31, Stats: 505
+Pokemon #: 34, Stats: 505
+Pokemon #: 38, Stats: 505
+Pokemon #: 68, Stats: 505
+Pokemon #: 62, Stats: 510
+Pokemon #: 73, Stats: 515
+Pokemon #: 142, Stats: 515
+Pokemon #: 103, Stats: 520
+Pokemon #: 121, Stats: 520
+Pokemon #: 3, Stats: 525
+Pokemon #: 91, Stats: 525
+Pokemon #: 134, Stats: 525
+Pokemon #: 135, Stats: 525
+Pokemon #: 136, Stats: 525
+Pokemon #: 9, Stats: 530
+Pokemon #: 6, Stats: 534
+Pokemon #: 131, Stats: 535
+Pokemon #: 130, Stats: 540
+Pokemon #: 143, Stats: 540
+Pokemon #: 59, Stats: 555
+Pokemon #: 18.1, Stats: 579
+Pokemon #: 144, Stats: 580
+Pokemon #: 145, Stats: 580
+Pokemon #: 146, Stats: 580
+Pokemon #: 65.1, Stats: 590
+Pokemon #: 80.1, Stats: 590
+Pokemon #: 115.1, Stats: 590
+Pokemon #: 94.1, Stats: 600
+Pokemon #: 127.1, Stats: 600
+Pokemon #: 149, Stats: 600
+Pokemon #: 151, Stats: 600
+Pokemon #: 142.1, Stats: 615
+Pokemon #: 3.1, Stats: 625
+Pokemon #: 9.1, Stats: 630
+Pokemon #: 6.1, Stats: 634
+Pokemon #: 6.2, Stats: 634
+Pokemon #: 130.1, Stats: 640
+Pokemon #: 150, Stats: 680
+Pokemon #: 150.1, Stats: 780
+Pokemon #: 150.2, Stats: 780
+

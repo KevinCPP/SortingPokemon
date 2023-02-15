@@ -43,7 +43,7 @@ namespace files {
         size_t lineNo = 0;
         std::string line;
         while(std::getline(infile, line)){
-            std::cout << line << std::endl;
+            //std::cout << line << std::endl;
             
             if(lineNo > 0){
                 std::stringstream ss(line);

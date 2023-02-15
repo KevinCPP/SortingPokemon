@@ -10,6 +10,7 @@ private:
 public:
     //constructor
     Pokemon(double num, double stat) : number(num), stats(stat) {}
+    Pokemon() : number(0), stats(0) {}
 
     //comparison operators:
     bool operator==(const Pokemon& other) const;
